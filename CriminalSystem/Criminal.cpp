@@ -26,6 +26,10 @@ namespace CriminalSystem{
         }
         return;
     }*/
+    int Criminal::getNumOfRecord()
+    {
+        return numOfRecord;
+    }
     void Criminal::outputAllinfo(){
         cout << *this << endl ;
         cout << "Number of Records :" << numOfRecord << endl;
@@ -53,6 +57,7 @@ namespace CriminalSystem{
         int treeNum = treeNumber[records[i]->getType()];
         //c->deletecrimeRecord(record);
         crimeTree[treeNum].Delete(crimeTree[treeNum], records[i]);
+        delete records[i];
         records.erase(records.begin()+i);
         numOfRecord--;
 
@@ -65,6 +70,7 @@ namespace CriminalSystem{
         {
             int treeNum = treeNumber[records[i]->getType()];
             crimeTree[treeNum].Delete(crimeTree[treeNum], records[i]);
+            delete records[i];
         }
 
         delete this;
