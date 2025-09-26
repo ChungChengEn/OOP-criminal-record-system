@@ -4,7 +4,6 @@ A desktop application for managing and tracking criminal records with efficient 
 
 ![Python](https://img.shields.io/badge/python-v3.7+-blue.svg)
 ![C++](https://img.shields.io/badge/C++-11-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 🌟 Features
 
