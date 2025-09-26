@@ -1,4 +1,4 @@
-# Criminal Record Management System
+# Criminal Record System
 
 A desktop application for managing and tracking criminal records with efficient search capabilities, built with Python (GUI) and C++ (backend).
 
